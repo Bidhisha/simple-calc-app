@@ -1,0 +1,17 @@
+#one{
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    border-color: hotpink;
+    border-radius: 10px;
+}
+#two{
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    border-color:hotpink;
+}
+div{
+    text-align: center;
+}

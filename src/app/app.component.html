@@ -1,0 +1,11 @@
+<h1 style="text-align: center;color: aqua;">Simple Calculator using AngularJS</h1>
+<hr>
+<div>
+<input type="text" name="num" placeholder="Enter first number" [(ngModel)]="num" id="one"><br><br>
+<input type="text" name="numb" placeholder="Enter second number" [(ngModel)]="numb" id="two"><br><br>
+<input type="radio" name="operation" value="add" (click)="add()">Add
+<input type="radio" name="operation" value="sub" (click)="sub()">Sub
+<input type="radio" name="operation" value="mul" (click)="mul()">mul
+<input type="radio" name="operation" value="div" (click)="div()">Div
+<p>Answer: {{sum}}</p>
+</div>
